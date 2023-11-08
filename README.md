@@ -1,9 +1,9 @@
 # CS61B-Notes
 **Week 1**
 1. Java is an object oriented language with strict requirements.
-  1) Every .java file has to contain a class declaration.
-  2) All code has to be part of a class.
-  3) To run a java programme, a main method needs to be defined using public static void main(Sring[] args)
+   1) Every .java file has to contain a class declaration.
+   2) All code has to be part of a class.
+   3) To run a java programme, a main method needs to be defined using public static void main(Sring[] args)
 2. Java is statically typed
    1) All variables, parameter, and methods must have a declared type.
    2) That type can never change
