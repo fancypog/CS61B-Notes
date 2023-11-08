@@ -10,6 +10,7 @@
    3) Expressions also have a type
    4) The compiler checks for type compatability before running the programme (instead of during execution)(upon compiling instead of run-time)
 3. Static typing
+   
    Merits:
    1) Catches certain types of errors, easier to debug
    2) Type errors can (almost) never occur on the end user's computer
