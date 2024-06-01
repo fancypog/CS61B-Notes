@@ -1,7 +1,9 @@
+package Week1;
+
 /** Lecture notes for CS61B  Week 1 */
 
 
-public class Main {
+public class Week1Notes {
 
     /* 3. Declaring Functions */
     /** Returns the larger one of x and y. */
