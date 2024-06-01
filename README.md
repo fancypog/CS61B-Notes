@@ -28,5 +28,11 @@
    1) compile: `javac HelloWorld.java`
    2) run: `java HelloWorld`
    3) `cat` to print out the file on terminal: `cat HelloWorld.java`
+2. The Process
+   1) `HelloWorld.java`
+   2) `javac` (Compiler)
+   3) `HelloWorld.class` (type-checked java file, pre-chewed for the machine)
+   4) `java` (Interpreter)
+   5) stuff happens
    
    
