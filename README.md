@@ -1,9 +1,11 @@
 # CS61B-Notes
-**Week 1**
+**Week 1 Lecture 1**
 1. Java is an object oriented language with strict requirements.
    1) Every .java file has to contain a class declaration.
    2) All code has to be part of a class.
-   3) To run a java programme, a main method needs to be defined using public static void main(String[] args)
+   3) To run a java programme, a main method needs to be defined using
+      ```java
+      public static void main(String[] args)
 2. Java is statically typed
    1) All variables, parameter, and methods must have a declared type.
    2) That type can never change
@@ -20,6 +22,11 @@
    Drawbacks:
    1) verbose
    2) less general (->generics)
-    
+
+**Week 1 Lecture 2**
+1. Compilation (linux terminal)
+   1) compile: `javac HelloWorld.java`
+   2) run: `java HelloWorld`
+   3) `cat` to print out the file on terminal: `cat HelloWorld.java`
    
    
