@@ -34,5 +34,22 @@
    3) `HelloWorld.class` (type-checked java file, pre-chewed for the machine)
    4) `java` (Interpreter)
    5) stuff happens
-   
+3. Classes and main method
+   1) Every method is associated with some class, to run a class, we must define a main method.
+   2) Below is a class without a main method which cannot be run directly
+   ```java
+   public class Dog {
+        public static void makeNoise(){
+            System.out.println("Bark!");
+       }
+   }
+   ``` 
+   3) Below is a test-drive class, which calls the above method, a method from another class ("Dog")
+   ```java
+   public class DogLauncher { 
+        public static void main(String[] args) {
+            Dog.makeNoise();
+        }
+   } 
+   ```
    
