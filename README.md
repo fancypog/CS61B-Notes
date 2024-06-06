@@ -52,7 +52,7 @@
         }
    } 
    ```
-   4. Arrays of Object
+4. Arrays of Object
    1) Use the new keyword to create the array and specify the size of the array
    2) Use new for each object to put in the array
    ```java
