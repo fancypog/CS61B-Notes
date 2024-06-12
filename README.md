@@ -12,13 +12,13 @@
    3) Expressions also have a type
    4) The compiler checks for type compatability before running the programme (instead of during execution)(upon compiling instead of run-time)
 3. Static typing
-   
+
    Merits:
    1) Catches certain types of errors, easier to debug
    2) Type errors can (almost) never occur on the end user's computer
    3) Easier to read and reason the code
    4) Efficient to run (No runtime type checks)
-  
+
    Drawbacks:
    1) verbose
    2) less general (->generics)
@@ -62,4 +62,33 @@
    dogs[1] = new Dog(20);
    dogs[0].makeNoise();
    ```
-   
+5. Static vs Non-static
+   1) Static methods should be accessed by Class
+   2) Non-static methods should be accessed by individual instances
+
+6. References (Pointers)
+   1) Example: java.lang.NullPointerException ([Visualisation](https://goo.gl/HLzN6s))
+   ```java
+      /** Example java.lang.NullPointerException */
+      /** Visualiser: goo.gl/HLzN6s */
+      
+      public class DogLoop {
+      public static void main(String[] args) {
+      Dog smallDog = new Dog(5);
+      Dog mediumDog = new Dog(25);
+      Dog hugeDog = new Dog(150);
+      
+              Dog[] manyDogs = new Dog[4];
+              manyDogs[0] = smallDog;
+              manyDogs[1] = mediumDog;
+              manyDogs[2] = new Dog(130);
+      
+              int i = 0;
+              while (i < manyDogs.length) {
+                  Dog.maxDog(manyDogs[i], mediumDog).makeNoise();
+                  i += 1;
+              }
+          }
+      }
+      
+   ```
