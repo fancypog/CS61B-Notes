@@ -92,3 +92,6 @@
       }
       
    ```
+   **Week 2 Lecture 3**
+   1. Java is pass by value
+      1) In Java, a copy of an actual parameter's value is made in memory.
