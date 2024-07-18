@@ -1,4 +1,6 @@
 # CS61B-Notes
+[CS 61B Spring 2024 Home Page](https://sp24.datastructure.es)
+
 **Week 1 Lecture 1**
 1. Java is an object oriented language with strict requirements.
    1) Every .java file has to contain a class declaration.
