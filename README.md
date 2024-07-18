@@ -1,5 +1,5 @@
 # CS61B-Notes
-[CS 61B Spring 2024 Home Page](sp24.datastructur.es)
+[CS 61B Spring 2024 Home Page](https://sp24.datastructur.es)
 
 **Week 1 Lecture 1**
 1. Java is an object oriented language with strict requirements.
