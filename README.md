@@ -95,6 +95,10 @@
       
    ```
    **Week 2 Lecture 3**
-   1. Java is pass by value (assignment)
-      1) In Java, a copy of an actual parameter's value is made in memory.
-      2) 
+   1. 8 primitive data types of Java are pass by value
+      1) These types are: byte, short, int, long, float, double, boolean and char
+      2) A copy of an actual parameter's value is made in memory.
+      y = x copies all the bits from x into y. Variables int y and int x are stored in different addresses in memory
+   2. Everything else, including arrays, is pass by reference
+      1) 
+
