@@ -100,5 +100,12 @@
       2) A copy of an actual parameter's value is made in memory.
       y = x copies all the bits from x into y. Variables int y and int x are stored in different addresses in memory
    2. Everything else, including arrays, is pass by reference
-      1) 
+      1) The 'new' keyword takes up a location in the momory (occupies an address/ creates a reference)
+      2) Walrus a and Walrus b store the same address/ pointer to the same one instance
+      ```java
+      Walrus a;
+      a = new Walrus(1000, 8.3); /** the new keyword takes up space in the memory, a stores the address/ pointer to it */
+      Walrus b;
+      b = a; /** Copies the address from a to b */
+      ```
 
