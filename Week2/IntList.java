@@ -27,6 +27,27 @@ public class IntList {
         return total;
     }
 
+    /* return the i'th item in the list */
+    public int get(int i) {
+        if (i == 0) {
+            return first;
+        }
+        return this.rest.get(i - 1);
+    }
+
+    public int iterativeGet(int i) {
+        int curInd = 0;
+        IntList p = this;
+        while ( curInd < i) {
+            p = p.rest;
+            curInd ++;
+        }
+        return p.first;
+
+    }
+
+
+
 
     public static void main(String[] args) {
         IntList L = new IntList(15, null);
@@ -34,5 +55,6 @@ public class IntList {
         L = new IntList(5, L);
 
         System.out.println(L.iterativeSize());
+        System.out.println(L.get(2));
     }
 }
