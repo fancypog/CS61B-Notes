@@ -1,6 +1,7 @@
 public class IntList {
     public int first;
-    public IntList rest;
+    public IntList rest; /* A reference/address to another IntList*/
+
 
     public static void main(String[] args) {
         IntList L = new IntList();
@@ -12,7 +13,7 @@ public class IntList {
         L.rest.rest = null;
 
         L.rest.rest = new IntList();
-        L.rest.rest.rest = 15;
+        L.rest.rest.first = 15;
         L.rest.rest.rest = null;
     }
 }
